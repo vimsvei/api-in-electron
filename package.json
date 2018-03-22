@@ -1,0 +1,31 @@
+{
+  "name": "api-in-electron",
+  "publishName": "API in Electron",
+  "version": "0.0.1",
+  "electronVersion": "0.0.1",
+  "main": "launcher.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Alexandr Zeletnsov",
+    "email": "alexandr.zelentsov@gmail.com"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "electron": "^1.8.4",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.0.4",
+    "path": "^0.12.7",
+    "popper.js": "^1.14.1",
+    "spdy": "^3.4.7"
+  },
+  "devDependencies": {
+    "electron-debug": "^1.5.0"
+  }
+}
